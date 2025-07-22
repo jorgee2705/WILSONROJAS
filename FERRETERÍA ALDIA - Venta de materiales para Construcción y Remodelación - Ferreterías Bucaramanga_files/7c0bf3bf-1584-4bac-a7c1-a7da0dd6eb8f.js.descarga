@@ -1,0 +1,10 @@
+(function (l, a, y, e, r, s, _) {
+  l['DoofinderAppsObject'] = r; l[r] = l[r] || function () { (l[r].q = l[r].q || []).push(arguments) };
+  s = a.createElement(y); s.async = 1; s.src = e; _ = a.getElementsByTagName(y)[0]; _.parentNode.insertBefore(s, _)
+})(window, document, 'script', 'https://cdn.doofinder.com/apps/loader/2.x/loader.min.js', 'doofinderApp');
+
+doofinderApp("config", "store", "7c0bf3bf-1584-4bac-a7c1-a7da0dd6eb8f")
+doofinderApp("config", "zone", "us1")
+
+doofinderApp("config", "settings",
+[{"vsn":"1.0","apps":[{"name":"layer","type":"search","options":{"trigger":"input[name='s'], #search_query_top, input[name='search_query'], #search_query","zone":"us1","url_hash":true},"overrides":{"autoload":{"mobile":null,"desktop":null},"layout":"Fullscreen","custom_css":{"mobile":[""],"desktop":[""]},"custom_properties":{"mobile":[""],"desktop":[""]},"search_query_retention":true}}],"settings":{"defaults":{"currency":"COP","hashid":"2c99952ef575c20dbf2de7547859686f","language":"es"},"account_code":"707676350d06c138f67842451ca5fb","search_engines":{"es":{"COP":"2c99952ef575c20dbf2de7547859686f"}},"checkout_css_selector":null,"require_cookies_consent":false,"checkout_confirmation_urls":[{"value":"/confirmacion-pedido","match_type":"regex"},{"value":"/confirmacao-encomenda","match_type":"regex"},{"value":"/conferma-ordine","match_type":"regex"},{"value":"/bestellbestatigung","match_type":"regex"},{"value":"/confirmation-commande","match_type":"regex"},{"value":"/order-confirmation","match_type":"regex"},{"value":"controller=order-confirmation","match_type":"regex"}],"page_type_mappings":[{"id":6081,"type":"home","match_conditions":[]},{"id":20662,"type":"product_pages","match_conditions":[]},{"id":35243,"type":"category_pages","match_conditions":[]},{"id":49824,"type":"shopping_cart","match_conditions":[]}],"register_visits":true,"register_checkouts":true,"ga4_integration":true,"checkout_summary_urls":[]}}])
